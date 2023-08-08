@@ -1,0 +1,102 @@
+/* Estilos para la navegación */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #6d95bd; /* Color de fondo de la barra de navegación */
+  padding: 10px 20px; /* Espaciado interno de la barra de navegación */
+}
+
+.navbar-brand {
+  color: #1d3145; /* Color del texto del enlace de navegación */
+  font-size: 20px; /* Tamaño del texto del enlace de navegación */
+  text-decoration: none; /* Quita la subrayado del enlace */
+  transition: color 0.3s ease; /* Agrega transición para el cambio de color al pasar el mouse */
+}
+
+.navbar-brand:hover {
+  color: #1a497b; /* Cambia el color del enlace al pasar el mouse */
+}
+
+.container {
+  margin: 0 10px; /* Margen entre cada enlace en la barra de navegación */
+}
+
+
+/* Estilos para la sección de inicio */
+#inicio {
+  background-color: #91b98a; /* Fondo rosa pastel */
+  padding: 50px;
+  text-align: center;
+}
+
+/* Estilos para la imagen */
+#inicio img {
+  width: 200px; /* Cambia el ancho de la imagen a 300 píxeles */
+  height: 200px; /* Cambia el alto de la imagen a 200 píxeles */
+  border-radius: 10px; /* Agrega esquinas redondeadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agrega sombra suave */
+  transition: transform 0.3s ease; /* Agrega transición para efecto de zoom */
+}
+
+/*  */
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.imagen-habilidades {
+    max-width: 300px; /* Ajusta el ancho máximo de la imagen según tus necesidades */
+    margin-right: 20px; /* Espaciado entre la imagen y el texto */
+}
+
+.contenido-habilidades {
+    flex: 1; /* Permite que el contenido de habilidades ocupe todo el espacio disponible */
+}
+
+/* Estilos para la lista de habilidades */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+
+
+
+/* Efecto de zoom al pasar el mouse sobre la imagen */
+#inicio img:hover {
+  transform: scale(1.1); /* Aumenta el tamaño de la imagen al 110% */
+}
+
+/* Estilos para la sección de habilidades */
+#habilidades {
+  background-color: #FFF176; /* Fondo amarillo pastel */
+  padding: 50px;
+}
+
+/* Estilos para la sección de aptitudes */
+#Aptitudes {
+  background-color: #A5D6A7; /* Fondo verde pastel */
+  padding: 50px;
+}
+
+/* Estilos para la sección de experiencia laboral */
+#ExperienciaLaboral, #ExperienciaLaboral1 {
+  background-color: #81D4FA; /* Fondo celeste pastel */
+  padding: 50px;
+}
+
+/* Estilos para la sección de contacto */
+#contacto {
+  background-color: #E1BEE7; /* Fondo lila pastel */
+  padding: 50px;
+}
+
+/* Cambiar el color del texto para que sea legible en los fondos pasteles */
+body {
+  color: #333;
+}
+
