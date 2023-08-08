@@ -91,12 +91,44 @@ ul li {
 
 /* Estilos para la sección de contacto */
 #contacto {
-  background-color: #E1BEE7; /* Fondo lila pastel */
-  padding: 50px;
+  background-color: #E1BEE7;
+  padding: 150px;
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente el contenido */
+  align-items: center; /* Centrar verticalmente el contenido */
+  height: 40vh; /* Ajustar la altura de la sección para centrarla verticalmente */
 }
 
 /* Cambiar el color del texto para que sea legible en los fondos pasteles */
 body {
   color: #333;
+}
+
+/* Estilos para los íconos de redes sociales */
+.social-media {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 10px; /* Espaciado entre los íconos */
+}
+
+.social-media li {
+  transition: transform 0.3s ease;
+}
+
+.social-media li:hover {
+  transform: scale(1.4); /* Efecto de escala al pasar el mouse */
+}
+
+/* Estilos para los íconos en los enlaces */
+.social-media a {
+  display: inline-block;
+  text-decoration: none;
+  color: #333; /* Color de los íconos */
+}
+
+/* Estilos para las imágenes en los íconos */
+.social-media img {
+  vertical-align: middle;
 }
 
